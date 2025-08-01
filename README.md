@@ -1,8 +1,8 @@
-# ecommerce-laravel-livewire
- 
-Getting started
-Assuming you've already installed on your machine: PHP (>= 7.0.0), Laravel, Composer and Node.js.
+## Getting started
 
+Assuming you've already installed on your machine: PHP (>= 7.0.0), [Laravel](https://laravel.com), [Composer](https://getcomposer.org) and [Node.js](https://nodejs.org).
+
+``` bash
 # install dependencies
 composer install
 npm install
@@ -15,7 +15,12 @@ php artisan key:generate
 npm run dev
 # or, if you prefer minified files
 npm run prod
+```
+
 Then launch the server:
 
+``` bash
 php artisan serve
+```
+
 The Laravel sample project is now up and running! Access it at http://localhost:8000.
